@@ -10,7 +10,7 @@ body{
 .contenedor{
     display: grid;
     grid-template-columns: 150px 1fr;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 200px;
     grid-gap: 20px;
     grid-template-areas: "navegacion navegacion"
                          "aside tarjetas"
@@ -54,6 +54,9 @@ body{
 footer{
     background: #ff637d;
     grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px;
 }
 
 .tarjeta{
@@ -106,5 +109,6 @@ footer > div{
     margin-top: 20px;
     margin-left:20px;
     font-size: 15px ;
-    ;
+    color: white;
+
 }
